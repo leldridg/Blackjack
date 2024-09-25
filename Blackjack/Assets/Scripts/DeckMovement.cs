@@ -5,7 +5,7 @@ public class Deck : MonoBehaviour
 
     public Vector3 onScreen;
     public Vector3 offScreen;
-    public float speed;
+    public float speed = 300;
     private bool isMovingUp;
     private bool isMovingDown;
 
